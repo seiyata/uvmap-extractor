@@ -27,7 +27,7 @@ while (my $line = <$fh>) {
   my $data = trim(substr($line, 3));
   if ($type eq 'vt') {
     my @texture = split(' ', $data);
-    push(@textures, \@texture);
+    push(@textures, [$texture[0] + 0, $texture[1] + 0]);
   } elsif ($type eq 'f ') {
     my @uv;
     my @face = split(' ', $data);
