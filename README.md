@@ -1,5 +1,5 @@
 # uvmap-extractor
-Extract UV map from .obj file
+Perl script to extract UV map from .obj file
 
 ## Usage
 
