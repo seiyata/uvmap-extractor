@@ -12,7 +12,9 @@ https://en.wikipedia.org/wiki/Wavefront_.obj_file
 
 ## Output (JSON file)
 
-Something like..
+[ Faces [ Vertices [x, y] ] ]
+
+Something like this.
 ```
 [
   [[0, 0], [0, 0.1], [0.1, 0]],
